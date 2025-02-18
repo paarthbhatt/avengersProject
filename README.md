@@ -1,7 +1,5 @@
 # The Avengers Interactive Website
-
-[image](https://github.com/user-attachments/assets/72df240f-0c12-4c6b-97b6-db1389eccfbb)
-
+[PREVIEW](https://github.com/user-attachments/assets/72df240f-0c12-4c6b-97b6-db1389eccfbb)
 
 ## Table of Contents
 - [Features](#features)
