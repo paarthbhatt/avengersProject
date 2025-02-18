@@ -107,5 +107,5 @@ Make sure you have the following software installed:
 5. Open a pull request
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.# The Avengers Interactive Website
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
