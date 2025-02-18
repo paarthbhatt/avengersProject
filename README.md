@@ -1,29 +1,111 @@
-# The Avengers - Interactive Website
+# The Avengers Interactive Website
+[PREVIEW](https://github.com/user-attachments/assets/72df240f-0c12-4c6b-97b6-db1389eccfbb)
 
-An immersive React-based website showcasing Earth's Mightiest Heroes with interactive 3D models, animations, and detailed character information.
+## Table of Contents
+- [Features](#features)
+- [Per-Hero Features](#per-hero-features)
+- [Visual Effects](#visual-effects)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Development Scripts](#development-scripts)
+- [System Requirements](#system-requirements)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
+- Interactive 3D models of iconic hero equipment/weapons using Three.js
+- Smooth page transitions and animations with Framer Motion
+- Responsive design optimized for all devices
+- Modern UI with glassmorphism effects and dynamic gradients
+- Detailed character profiles and equipment specifications
 
-- Interactive 3D models for each hero's iconic equipment/weapons
-- Smooth page transitions and animations using Framer Motion 
-- Responsive design that works on mobile and desktop
-- Dynamic gradients and visual effects
-- Character profiles with detailed information
-- Modern UI with glassmorphism effects
+## Per-Hero Features
+Each hero page includes:
+- Interactive 3D model viewer
+- Detailed character background
+- Combat abilities overview
+- Equipment/weapon specifications
+- Strategic analysis
 
-## Tech Stack
+## Visual Effects
+- Custom animations and transitions
+- Parallax scrolling effects
+- Dynamic color gradients per hero
+- Glassmorphism UI elements
+- Glowing text effects
+- Interactive hero cards with hover animations
 
-- React 18
+## Technologies Used
 - TypeScript
-- Tailwind CSS
-- Three.js / React Three Fiber
+- Three.js
 - Framer Motion
-- React Router DOM
-- Lucide Icons
+- Tailwind CSS
+
+## Project Structure
+```
+src/
+├── assets/               # Static assets (images, fonts, etc.)
+├── components/           # Reusable components
+│   ├── Layout.tsx        # Layout component
+│   ├── HeroCard.tsx      # Hero card component
+│   └── ...               # Other components
+├── pages/                # Page components
+│   ├── index.tsx         # Homepage
+│   ├── hero/             # Hero-specific pages
+│   └── ...               # Other pages
+├── styles/               # Global styles
+├── utils/                # Utility functions
+└── ...                   # Other folders and files
+```
 
 ## Getting Started
 
+### Prerequisites
+Make sure you have the following software installed:
+- Node.js 16+
+- npm 7+
+
+### Installation
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/avengers-website.git
-cd avengers-website
+   ```bash
+   git clone https://github.com/paarthbhatt/avengersProject.git
+   cd avengersProject
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Development Scripts
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
+
+## System Requirements
+- Node.js 16+
+- npm 7+
+- Modern web browser with WebGL support
+
+## Contributing
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a pull request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
