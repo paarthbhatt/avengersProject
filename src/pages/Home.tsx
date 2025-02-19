@@ -12,35 +12,35 @@ const heroes = [
   },
   {
     name: "Iron Man",
-    image: "/img/2.jpg",
+    image: "/src/assets/img/2.jpg",
     description: "Genius billionaire Tony Stark in his cutting-edge powered armor.",
     path: "/iron-man",
     color: "from-yellow-600/20 to-red-600/20"
   },
   {
     name: "Thor",
-    image: "/img/3.jpg",
+    image: "/src/assets/img/3.jpg",
     description: "The God of Thunder, wielding the mighty Mjolnir.",
     path: "/thor",
     color: "from-blue-400/20 to-yellow-400/20"
   },
   {
     name: "Black Widow",
-    image: "/img/4.jpg",
+    image: "/src/assets/img/4.jpg",
     description: "Master spy and expert combatant with deadly precision.",
     path: "/black-widow",
     color: "from-red-600/20 to-black/20"
   },
   {
     name: "Hulk",
-    image: "/img/6.jpg",
+    image: "/src/assets/img/6.jpg",
     description: "The strongest Avenger, fueled by rage and gamma radiation.",
     path: "/hulk",
     color: "from-green-600/20 to-green-800/20"
   },
   {
     name: "Hawkeye",
-    image: "/img/5.jpg",
+    image: "/src/assets/img/5.jpg",
     description: "Master archer with perfect accuracy and tactical expertise.",
     path: "/hawkeye",
     color: "from-purple-600/20 to-black/20"
