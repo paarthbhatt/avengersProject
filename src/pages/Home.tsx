@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const heroes = [
   {
     name: "Captain America",
-    image: "/img/1.jpg",
+    image: "/src/assets/img/1.jpg",
     description: "The First Avenger, wielding his iconic shield with unwavering courage.",
     path: "/captain-america",
     color: "from-blue-600/20 to-red-600/20"
