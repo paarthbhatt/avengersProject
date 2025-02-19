@@ -5,42 +5,42 @@ import { motion } from 'framer-motion';
 const heroes = [
   {
     name: "Captain America",
-    image: "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=800&auto=format&fit=crop",
+    image: "/img/1.jpg",
     description: "The First Avenger, wielding his iconic shield with unwavering courage.",
     path: "/captain-america",
     color: "from-blue-600/20 to-red-600/20"
   },
   {
     name: "Iron Man",
-    image: "https://images.unsplash.com/photo-1608889476561-6242cfdbf622?w=800&auto=format&fit=crop",
+    image: "/img/2.jpg",
     description: "Genius billionaire Tony Stark in his cutting-edge powered armor.",
     path: "/iron-man",
     color: "from-yellow-600/20 to-red-600/20"
   },
   {
     name: "Thor",
-    image: "https://images.unsplash.com/photo-1590341328520-63256eb32bc3?w=800&auto=format&fit=crop",
+    image: "/img/3.jpg",
     description: "The God of Thunder, wielding the mighty Mjolnir.",
     path: "/thor",
     color: "from-blue-400/20 to-yellow-400/20"
   },
   {
     name: "Black Widow",
-    image: "https://images.unsplash.com/photo-1621955964441-c173e01c135b?w=800&auto=format&fit=crop",
+    image: "/img/4.jpg",
     description: "Master spy and expert combatant with deadly precision.",
     path: "/black-widow",
     color: "from-red-600/20 to-black/20"
   },
   {
     name: "Hulk",
-    image: "https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?w=800&auto=format&fit=crop",
+    image: "/img/6.jpg",
     description: "The strongest Avenger, fueled by rage and gamma radiation.",
     path: "/hulk",
     color: "from-green-600/20 to-green-800/20"
   },
   {
     name: "Hawkeye",
-    image: "https://images.unsplash.com/photo-1624213111452-35e8d3d5cc18?w=800&auto=format&fit=crop",
+    image: "/img/5.jpg",
     description: "Master archer with perfect accuracy and tactical expertise.",
     path: "/hawkeye",
     color: "from-purple-600/20 to-black/20"
